@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thesu\\Desktop\\New folder (2)\\Objects and Methods\\project-setup\\CarDealership.csproj",
-      "projectName": "CarDealership",
-      "projectPath": "C:\\Users\\thesu\\Desktop\\New folder (2)\\Objects and Methods\\project-setup\\CarDealership.csproj",
+      "projectUniqueName": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\ping-pong\\PingPong.csproj",
+      "projectName": "PingPong",
+      "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\ping-pong\\PingPong.csproj",
       "packagesPath": "C:\\Users\\thesu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thesu\\Desktop\\New folder (2)\\Objects and Methods\\project-setup\\obj\\",
+      "outputPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\ping-pong\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thesu\\AppData\\Roaming\\NuGet\\NuGet.Config"

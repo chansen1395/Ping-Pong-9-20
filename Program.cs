@@ -1,49 +1,54 @@
 using System;
 using System.Collections.Generic;
-using Dealership.Models;
 
-namespace Dealership
+// input is int number, less than 100 -- for brevity
+// test whether divisible by 5 & 3 --> ping-pong
+// test whether divisible by 3 --> ping
+// test whether divisible by 5 --> pong
+// use a list to add results (output all as string?)
+
+namespace PingPong
 {
   public class Program
   {
     public static void Main()
     {
-    // {
-        Car yugo = new Car("1980 Yugo Koral", 700, 56000);
-        Console.WriteLine(yugo.MakeModel);
-        yugo.MakeModel = "Worst Car Ever";
-        Console.WriteLine(yugo.MakeModel);
-    // }
-      Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);
-      Car ford = new Car("1988 Ford Country Squire", 1400, 239001);
-      Car amc = new Car("1976 AMC Pacer", 400, 198000);
+      Console.WriteLine("Input a number between 1 and 100");
+      string stringNumber = Console.ReadLine();
+      int inputNumber = int.Parse(stringNumber);
+      List<string> outputString = new List<string>(0);
 
-      List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
+      if (inputNumber >= 1 && inputNumber < 100) {
+        for (int i = 1; i < inputNumber + 1; i++) {
+          if ((i % 3 == 0) && (i % 5 == 0)) {
+          // Console.WriteLine("ping-pong");
+          outputString.Add("ping-pong");
+          }
+          else if (i % 3 == 0) {       
+          // Console.WriteLine("ping");
+          outputString.Add("ping");
+          }
+          else if (i % 5 == 0) {           
+          // Console.WriteLine("pong");
+          outputString.Add("pong");
+          }
+          else {
+            outputString.Add(i.ToString());
+            // Console.WriteLine(i.ToString());
+          }
+        }
 
-      yugo.SetPrice(300);
-
-      Console.WriteLine("Enter maximum price: ");
-      string stringMaxPrice = Console.ReadLine();
-      int maxPrice = int.Parse(stringMaxPrice);
-
-      List<Car> CarsMatchingSearch = new List<Car>(0);
-
-
-      foreach (Car automobile in Cars)
-      {
-        if (automobile.WorthBuying(maxPrice))
+      foreach (var j in outputString) 
         {
-          CarsMatchingSearch.Add(automobile);
+        Console.WriteLine(j);
         }
       }
-
-      foreach(Car automobile in CarsMatchingSearch)
-      {
-        Console.WriteLine("----------------------");
-        Console.WriteLine(automobile.GetMakeModel());
-        Console.WriteLine(automobile.GetMiles() + " miles");
-        Console.WriteLine("$" + automobile.GetPrice());
+      else {
+      Console.WriteLine("Please enter a number between 1 - 100");
       }
+
+
+
     }
   }
 }
