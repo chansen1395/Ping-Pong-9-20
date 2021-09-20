@@ -21,20 +21,16 @@ namespace PingPong
       if (inputNumber >= 1 && inputNumber < 100) {
         for (int i = 1; i < inputNumber + 1; i++) {
           if ((i % 3 == 0) && (i % 5 == 0)) {
-          // Console.WriteLine("ping-pong");
           outputString.Add("ping-pong");
           }
           else if (i % 3 == 0) {       
-          // Console.WriteLine("ping");
           outputString.Add("ping");
           }
           else if (i % 5 == 0) {           
-          // Console.WriteLine("pong");
           outputString.Add("pong");
           }
           else {
             outputString.Add(i.ToString());
-            // Console.WriteLine(i.ToString());
           }
         }
 
