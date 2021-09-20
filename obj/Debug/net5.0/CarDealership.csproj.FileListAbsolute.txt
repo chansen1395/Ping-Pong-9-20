@@ -1,0 +1,16 @@
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.exe
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.deps.json
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.runtimeconfig.json
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.runtimeconfig.dev.json
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.dll
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\ref\CarDealership.dll
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\bin\Debug\net5.0\CarDealership.pdb
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.csprojAssemblyReference.cache
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.AssemblyInfoInputs.cache
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.AssemblyInfo.cs
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.dll
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\ref\CarDealership.dll
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.pdb
+C:\Users\thesu\Desktop\New folder (2)\Objects and Methods\project-setup\obj\Debug\net5.0\CarDealership.genruntimeconfig.cache
